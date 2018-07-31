@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="septuple_margin">112dp</dimen>
+    <dimen name="sextuple_margin">96dp</dimen>
+    <dimen name="quintuple_margin">80dp</dimen>
+    <dimen name="quadruple_margin_and_half_margin">72dp</dimen>
+    <dimen name="quadruple_margin">64dp</dimen>
+    <dimen name="triple_and_half_margin">56dp</dimen>
+    <dimen name="triple_margin">48dp</dimen>
+    <dimen name="double_and_half_margin">40dp</dimen>
+    <dimen name="double_margin">32dp</dimen>
+    <dimen name="single_and_half_margin">24dp</dimen>
+    <dimen name="single_margin">16dp</dimen>
+    <dimen name="half_margin_and_then_some">10dp</dimen>
+    <dimen name="half_margin">8dp</dimen>
+    <dimen name="third_margin">6dp</dimen>
+    <dimen name="quarter_margin">4dp</dimen>
+    <dimen name="eigth_margin">2dp</dimen>
+    <dimen name="sixteenth_margin">1dp</dimen>
+</resources>

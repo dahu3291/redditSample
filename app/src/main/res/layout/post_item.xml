@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/single_margin"
+        android:layout_marginTop="@dimen/half_margin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="55" />
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="@dimen/quadruple_margin"
+        android:layout_height="@dimen/quadruple_margin"
+        android:layout_marginEnd="@dimen/single_margin"
+        android:layout_marginTop="@dimen/half_margin"
+        android:contentDescription="@string/desc_thumbnail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/half_margin"
+        android:layout_marginTop="@dimen/half_margin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        app:layout_constraintEnd_toStartOf="@+id/thumbnail"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/score"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginEnd="@dimen/single_margin"
+        tools:text="StockX has great merchandise \n GO make your bid now!" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="@dimen/half_margin"
+        android:layout_marginStart="@dimen/half_margin"
+        android:layout_marginTop="@dimen/half_margin"
+        app:layout_constraintEnd_toStartOf="@+id/thumbnail"
+        app:layout_constraintStart_toEndOf="@+id/score"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_goneMarginEnd="@dimen/single_margin"
+        tools:text="submitted by aj" />
+</android.support.constraint.ConstraintLayout>
